@@ -1,0 +1,59 @@
+.about{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(180deg);
+    object-fit: fill;
+    z-index: -10;
+}
+
+.about_info{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 110px;
+    justify-content: center;
+}
+
+.about_text{
+    margin-right: 0px;
+    /* padding-right: 100px; */
+}
+
+.about_title{
+    font-size: 2.8rem;
+    line-height: 70px;
+}
+.about_subtitle{
+    width: 600px;
+}
+
+.about_img{
+    position: relative;
+    height: 190px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.about_planet1{
+    position: absolute;
+    height: 300px;
+    /* bottom: 360px;
+    right: 100px; */
+    top: -25px;
+    left: -80px;
+}
+.about_planet2{
+    position: absolute;
+    height: 200px;
+    bottom: 0px;
+    right: -40px;
+}
